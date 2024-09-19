@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (tryAnotherBtn) {
         tryAnotherBtn.addEventListener('click', () => {
             // Redirect to the specified URL
-            window.location.href = '/Frontend/index.html';
+            window.location.href = 'http://127.0.0.1:5500/Frontend/index.html';
         });
     } else {
         console.error('Button with class "try-another-btn" not found.');
